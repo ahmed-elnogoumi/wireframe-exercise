@@ -1,0 +1,105 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: #3b3b3b;
+    color: white;
+    margin-bottom: 30px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav > img {
+    margin-left: 315px;
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+nav > ul > li {
+    margin-top: 25px;
+}
+
+#hero-image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#hero-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#sub-banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+#call-to-action > img {
+    width: 480px;
+}
+
+#call-to-action > article {
+    width: 29.5%;
+}
+
+#call-to-action > article > h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#call-to-action > article > p {
+    margin-bottom: 10px;
+    font-style: italic;
+    overflow: scroll;
+}
+
+#call-to-action > article > div {
+    background-color: #3b3b3b;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 150px;
+
+    transition: background-color 350ms;
+    transition: color 350ms;
+}
+
+#call-to-action > article > div:hover {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 150px;
+}
+
+#call-to-action {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+footer {
+    padding: 25px;
+    background-color: #3b3b3b;
+}
